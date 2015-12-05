@@ -1,0 +1,1330 @@
+fileFormatVersion: 2
+guid: c2b203ae19931b54b969452beb2ece96
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Arm_high_L
+    100002: Arm_high_R
+    100004: Arm_low_L
+    100006: Arm_low_R
+    100008: Arms_main
+    100010: Belly
+    100012: Body
+    100014: Body_Main
+    100016: Bone_004
+    100018: Collar_L
+    100020: Collar_R
+    100022: //RootNode
+    100024: ear_hinge_L
+    100026: ear_hinge_r
+    100028: Ear_L
+    100030: Ear_R
+    100032: Eye_L
+    100034: Eye_Lookat_L
+    100036: Eye_R
+    100038: Eyeball_L
+    100040: Eyeball_R
+    100042: Eyes_Lookat
+    100044: EyeSystem
+    100046: Foot_L
+    100048: Foot_R
+    100050: Hand_L
+    100052: Hand_L_point
+    100054: Hand_R
+    100056: Hand_R_point
+    100058: Hardhat
+    100060: Hat
+    100062: Head
+    100064: Leg_high_L
+    100066: Leg_high_R
+    100068: Leg_low_L
+    100070: Leg_low_R
+    100072: Mouth_Bottom
+    100074: Mouth_L
+    100076: Mouth_R
+    100078: Mouth_smile
+    100080: Pelvis_L
+    100082: Pelvis_R
+    100084: Rear
+    100086: Tail
+    100088: Tail_001
+    400000: Arm_high_L
+    400002: Arm_high_R
+    400004: Arm_low_L
+    400006: Arm_low_R
+    400008: Arms_main
+    400010: Belly
+    400012: Body
+    400014: Body_Main
+    400016: Bone_004
+    400018: Collar_L
+    400020: Collar_R
+    400022: //RootNode
+    400024: ear_hinge_L
+    400026: ear_hinge_r
+    400028: Ear_L
+    400030: Ear_R
+    400032: Eye_L
+    400034: Eye_Lookat_L
+    400036: Eye_R
+    400038: Eyeball_L
+    400040: Eyeball_R
+    400042: Eyes_Lookat
+    400044: EyeSystem
+    400046: Foot_L
+    400048: Foot_R
+    400050: Hand_L
+    400052: Hand_L_point
+    400054: Hand_R
+    400056: Hand_R_point
+    400058: Hardhat
+    400060: Hat
+    400062: Head
+    400064: Leg_high_L
+    400066: Leg_high_R
+    400068: Leg_low_L
+    400070: Leg_low_R
+    400072: Mouth_Bottom
+    400074: Mouth_L
+    400076: Mouth_R
+    400078: Mouth_smile
+    400080: Pelvis_L
+    400082: Pelvis_R
+    400084: Rear
+    400086: Tail
+    400088: Tail_001
+    4300000: Hardhat
+    4300002: Eyeball_L
+    4300004: Eyeball_R
+    4300006: Body
+    7400000: Move-Begin
+    7400002: Walk
+    7400004: Default Take0
+    7400006: Idle
+    7400008: Idle
+    7400010: Alert
+    7400012: Crouch
+    7400014: Jump
+    7400016: Fight
+    7400018: Tail_Attack
+    7400020: Die
+    7400022: Stop_Crouch
+    9500000: //RootNode
+    13700000: Body
+    13700002: Eyeball_L
+    13700004: Eyeball_R
+    13700006: Hardhat
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Move-Begin
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 8
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Eyeball_L
+        weight: 1
+      - path: Eyeball_R
+        weight: 1
+      - path: EyeSystem
+        weight: 1
+      - path: EyeSystem/Arms_main
+        weight: 1
+      - path: EyeSystem/Arms_main/Hand_L_point
+        weight: 1
+      - path: EyeSystem/Arms_main/Hand_R_point
+        weight: 1
+      - path: EyeSystem/Body_Main
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_L/Leg_high_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_L/Leg_high_L/Leg_low_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_L/Leg_high_L/Leg_low_L/Foot_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_R/Leg_high_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_R/Leg_high_R/Leg_low_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_R/Leg_high_R/Leg_low_R/Foot_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_L/Arm_high_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_L/Arm_high_L/Arm_low_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_L/Arm_high_L/Arm_low_L/Hand_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_R/Arm_high_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_R/Arm_high_R/Arm_low_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_R/Arm_high_R/Arm_low_R/Hand_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Head
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/ear_hinge_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/ear_hinge_L/Ear_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/ear_hinge_r
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/ear_hinge_r/Ear_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Eye_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Eye_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Hat
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Mouth_Bottom
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Mouth_smile
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Mouth_smile/Mouth_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Mouth_smile/Mouth_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Rear
+        weight: 1
+      - path: EyeSystem/Body_Main/Rear/Tail
+        weight: 1
+      - path: EyeSystem/Body_Main/Rear/Tail/Tail_001
+        weight: 1
+      - path: EyeSystem/Eyes_Lookat
+        weight: 1
+      - path: EyeSystem/Eyes_Lookat/Bone_004
+        weight: 1
+      - path: EyeSystem/Eyes_Lookat/Eye_Lookat_L
+        weight: 1
+      - path: Hardhat
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Walk
+      takeName: EyeSystemAction
+      firstFrame: 9
+      lastFrame: 29.0999985
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Eyeball_L
+        weight: 1
+      - path: Eyeball_R
+        weight: 1
+      - path: EyeSystem
+        weight: 1
+      - path: EyeSystem/Arms_main
+        weight: 1
+      - path: EyeSystem/Arms_main/Hand_L_point
+        weight: 1
+      - path: EyeSystem/Arms_main/Hand_R_point
+        weight: 1
+      - path: EyeSystem/Body_Main
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_L/Leg_high_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_L/Leg_high_L/Leg_low_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_L/Leg_high_L/Leg_low_L/Foot_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_R/Leg_high_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_R/Leg_high_R/Leg_low_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_R/Leg_high_R/Leg_low_R/Foot_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_L/Arm_high_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_L/Arm_high_L/Arm_low_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_L/Arm_high_L/Arm_low_L/Hand_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_R/Arm_high_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_R/Arm_high_R/Arm_low_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_R/Arm_high_R/Arm_low_R/Hand_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Head
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/ear_hinge_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/ear_hinge_L/Ear_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/ear_hinge_r
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/ear_hinge_r/Ear_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Eye_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Eye_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Hat
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Mouth_Bottom
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Mouth_smile
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Mouth_smile/Mouth_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Mouth_smile/Mouth_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Rear
+        weight: 1
+      - path: EyeSystem/Body_Main/Rear/Tail
+        weight: 1
+      - path: EyeSystem/Body_Main/Rear/Tail/Tail_001
+        weight: 1
+      - path: EyeSystem/Eyes_Lookat
+        weight: 1
+      - path: EyeSystem/Eyes_Lookat/Bone_004
+        weight: 1
+      - path: EyeSystem/Eyes_Lookat/Eye_Lookat_L
+        weight: 1
+      - path: Hardhat
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Idle
+      takeName: Default Take
+      firstFrame: 47
+      lastFrame: 64
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Eyeball_L
+        weight: 1
+      - path: Eyeball_R
+        weight: 1
+      - path: EyeSystem
+        weight: 1
+      - path: EyeSystem/Arms_main
+        weight: 1
+      - path: EyeSystem/Arms_main/Hand_L_point
+        weight: 1
+      - path: EyeSystem/Arms_main/Hand_R_point
+        weight: 1
+      - path: EyeSystem/Body_Main
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_L/Leg_high_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_L/Leg_high_L/Leg_low_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_L/Leg_high_L/Leg_low_L/Foot_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_R/Leg_high_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_R/Leg_high_R/Leg_low_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_R/Leg_high_R/Leg_low_R/Foot_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_L/Arm_high_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_L/Arm_high_L/Arm_low_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_L/Arm_high_L/Arm_low_L/Hand_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_R/Arm_high_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_R/Arm_high_R/Arm_low_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_R/Arm_high_R/Arm_low_R/Hand_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Head
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/ear_hinge_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/ear_hinge_L/Ear_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/ear_hinge_r
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/ear_hinge_r/Ear_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Eye_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Eye_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Hat
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Mouth_Bottom
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Mouth_smile
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Mouth_smile/Mouth_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Mouth_smile/Mouth_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Rear
+        weight: 1
+      - path: EyeSystem/Body_Main/Rear/Tail
+        weight: 1
+      - path: EyeSystem/Body_Main/Rear/Tail/Tail_001
+        weight: 1
+      - path: EyeSystem/Eyes_Lookat
+        weight: 1
+      - path: EyeSystem/Eyes_Lookat/Bone_004
+        weight: 1
+      - path: EyeSystem/Eyes_Lookat/Eye_Lookat_L
+        weight: 1
+      - path: Hardhat
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Alert
+      takeName: Default Take
+      firstFrame: 64
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Eyeball_L
+        weight: 1
+      - path: Eyeball_R
+        weight: 1
+      - path: EyeSystem
+        weight: 1
+      - path: EyeSystem/Arms_main
+        weight: 1
+      - path: EyeSystem/Arms_main/Hand_L_point
+        weight: 1
+      - path: EyeSystem/Arms_main/Hand_R_point
+        weight: 1
+      - path: EyeSystem/Body_Main
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_L/Leg_high_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_L/Leg_high_L/Leg_low_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_L/Leg_high_L/Leg_low_L/Foot_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_R/Leg_high_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_R/Leg_high_R/Leg_low_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_R/Leg_high_R/Leg_low_R/Foot_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_L/Arm_high_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_L/Arm_high_L/Arm_low_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_L/Arm_high_L/Arm_low_L/Hand_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_R/Arm_high_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_R/Arm_high_R/Arm_low_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_R/Arm_high_R/Arm_low_R/Hand_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Head
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/ear_hinge_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/ear_hinge_L/Ear_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/ear_hinge_r
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/ear_hinge_r/Ear_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Eye_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Eye_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Hat
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Mouth_Bottom
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Mouth_smile
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Mouth_smile/Mouth_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Mouth_smile/Mouth_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Rear
+        weight: 1
+      - path: EyeSystem/Body_Main/Rear/Tail
+        weight: 1
+      - path: EyeSystem/Body_Main/Rear/Tail/Tail_001
+        weight: 1
+      - path: EyeSystem/Eyes_Lookat
+        weight: 1
+      - path: EyeSystem/Eyes_Lookat/Bone_004
+        weight: 1
+      - path: EyeSystem/Eyes_Lookat/Eye_Lookat_L
+        weight: 1
+      - path: Hardhat
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Crouch
+      takeName: Default Take
+      firstFrame: 81
+      lastFrame: 89
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Eyeball_L
+        weight: 1
+      - path: Eyeball_R
+        weight: 1
+      - path: EyeSystem
+        weight: 1
+      - path: EyeSystem/Arms_main
+        weight: 1
+      - path: EyeSystem/Arms_main/Hand_L_point
+        weight: 1
+      - path: EyeSystem/Arms_main/Hand_R_point
+        weight: 1
+      - path: EyeSystem/Body_Main
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_L/Leg_high_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_L/Leg_high_L/Leg_low_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_L/Leg_high_L/Leg_low_L/Foot_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_R/Leg_high_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_R/Leg_high_R/Leg_low_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_R/Leg_high_R/Leg_low_R/Foot_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_L/Arm_high_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_L/Arm_high_L/Arm_low_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_L/Arm_high_L/Arm_low_L/Hand_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_R/Arm_high_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_R/Arm_high_R/Arm_low_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_R/Arm_high_R/Arm_low_R/Hand_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Head
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/ear_hinge_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/ear_hinge_L/Ear_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/ear_hinge_r
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/ear_hinge_r/Ear_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Eye_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Eye_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Hat
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Mouth_Bottom
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Mouth_smile
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Mouth_smile/Mouth_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Mouth_smile/Mouth_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Rear
+        weight: 1
+      - path: EyeSystem/Body_Main/Rear/Tail
+        weight: 1
+      - path: EyeSystem/Body_Main/Rear/Tail/Tail_001
+        weight: 1
+      - path: EyeSystem/Eyes_Lookat
+        weight: 1
+      - path: EyeSystem/Eyes_Lookat/Bone_004
+        weight: 1
+      - path: EyeSystem/Eyes_Lookat/Eye_Lookat_L
+        weight: 1
+      - path: Hardhat
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Jump
+      takeName: Default Take
+      firstFrame: 82
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Eyeball_L
+        weight: 1
+      - path: Eyeball_R
+        weight: 1
+      - path: EyeSystem
+        weight: 1
+      - path: EyeSystem/Arms_main
+        weight: 1
+      - path: EyeSystem/Arms_main/Hand_L_point
+        weight: 1
+      - path: EyeSystem/Arms_main/Hand_R_point
+        weight: 1
+      - path: EyeSystem/Body_Main
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_L/Leg_high_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_L/Leg_high_L/Leg_low_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_L/Leg_high_L/Leg_low_L/Foot_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_R/Leg_high_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_R/Leg_high_R/Leg_low_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_R/Leg_high_R/Leg_low_R/Foot_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_L/Arm_high_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_L/Arm_high_L/Arm_low_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_L/Arm_high_L/Arm_low_L/Hand_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_R/Arm_high_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_R/Arm_high_R/Arm_low_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_R/Arm_high_R/Arm_low_R/Hand_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Head
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/ear_hinge_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/ear_hinge_L/Ear_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/ear_hinge_r
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/ear_hinge_r/Ear_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Eye_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Eye_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Hat
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Mouth_Bottom
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Mouth_smile
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Mouth_smile/Mouth_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Mouth_smile/Mouth_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Rear
+        weight: 1
+      - path: EyeSystem/Body_Main/Rear/Tail
+        weight: 1
+      - path: EyeSystem/Body_Main/Rear/Tail/Tail_001
+        weight: 1
+      - path: EyeSystem/Eyes_Lookat
+        weight: 1
+      - path: EyeSystem/Eyes_Lookat/Bone_004
+        weight: 1
+      - path: EyeSystem/Eyes_Lookat/Eye_Lookat_L
+        weight: 1
+      - path: Hardhat
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Fight
+      takeName: Default Take
+      firstFrame: 121
+      lastFrame: 165
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Eyeball_L
+        weight: 1
+      - path: Eyeball_R
+        weight: 1
+      - path: EyeSystem
+        weight: 1
+      - path: EyeSystem/Arms_main
+        weight: 1
+      - path: EyeSystem/Arms_main/Hand_L_point
+        weight: 1
+      - path: EyeSystem/Arms_main/Hand_R_point
+        weight: 1
+      - path: EyeSystem/Body_Main
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_L/Leg_high_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_L/Leg_high_L/Leg_low_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_L/Leg_high_L/Leg_low_L/Foot_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_R/Leg_high_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_R/Leg_high_R/Leg_low_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_R/Leg_high_R/Leg_low_R/Foot_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_L/Arm_high_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_L/Arm_high_L/Arm_low_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_L/Arm_high_L/Arm_low_L/Hand_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_R/Arm_high_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_R/Arm_high_R/Arm_low_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_R/Arm_high_R/Arm_low_R/Hand_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Head
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/ear_hinge_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/ear_hinge_L/Ear_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/ear_hinge_r
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/ear_hinge_r/Ear_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Eye_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Eye_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Hat
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Mouth_Bottom
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Mouth_smile
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Mouth_smile/Mouth_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Mouth_smile/Mouth_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Rear
+        weight: 1
+      - path: EyeSystem/Body_Main/Rear/Tail
+        weight: 1
+      - path: EyeSystem/Body_Main/Rear/Tail/Tail_001
+        weight: 1
+      - path: EyeSystem/Eyes_Lookat
+        weight: 1
+      - path: EyeSystem/Eyes_Lookat/Bone_004
+        weight: 1
+      - path: EyeSystem/Eyes_Lookat/Eye_Lookat_L
+        weight: 1
+      - path: Hardhat
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Tail_Attack
+      takeName: Default Take
+      firstFrame: 180
+      lastFrame: 186
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Eyeball_L
+        weight: 1
+      - path: Eyeball_R
+        weight: 1
+      - path: EyeSystem
+        weight: 1
+      - path: EyeSystem/Arms_main
+        weight: 1
+      - path: EyeSystem/Arms_main/Hand_L_point
+        weight: 1
+      - path: EyeSystem/Arms_main/Hand_R_point
+        weight: 1
+      - path: EyeSystem/Body_Main
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_L/Leg_high_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_L/Leg_high_L/Leg_low_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_L/Leg_high_L/Leg_low_L/Foot_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_R/Leg_high_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_R/Leg_high_R/Leg_low_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_R/Leg_high_R/Leg_low_R/Foot_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_L/Arm_high_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_L/Arm_high_L/Arm_low_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_L/Arm_high_L/Arm_low_L/Hand_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_R/Arm_high_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_R/Arm_high_R/Arm_low_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_R/Arm_high_R/Arm_low_R/Hand_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Head
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/ear_hinge_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/ear_hinge_L/Ear_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/ear_hinge_r
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/ear_hinge_r/Ear_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Eye_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Eye_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Hat
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Mouth_Bottom
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Mouth_smile
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Mouth_smile/Mouth_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Mouth_smile/Mouth_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Rear
+        weight: 1
+      - path: EyeSystem/Body_Main/Rear/Tail
+        weight: 1
+      - path: EyeSystem/Body_Main/Rear/Tail/Tail_001
+        weight: 1
+      - path: EyeSystem/Eyes_Lookat
+        weight: 1
+      - path: EyeSystem/Eyes_Lookat/Bone_004
+        weight: 1
+      - path: EyeSystem/Eyes_Lookat/Eye_Lookat_L
+        weight: 1
+      - path: Hardhat
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Die
+      takeName: Default Take
+      firstFrame: 200
+      lastFrame: 216
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Eyeball_L
+        weight: 1
+      - path: Eyeball_R
+        weight: 1
+      - path: EyeSystem
+        weight: 1
+      - path: EyeSystem/Arms_main
+        weight: 1
+      - path: EyeSystem/Arms_main/Hand_L_point
+        weight: 1
+      - path: EyeSystem/Arms_main/Hand_R_point
+        weight: 1
+      - path: EyeSystem/Body_Main
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_L/Leg_high_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_L/Leg_high_L/Leg_low_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_L/Leg_high_L/Leg_low_L/Foot_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_R/Leg_high_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_R/Leg_high_R/Leg_low_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_R/Leg_high_R/Leg_low_R/Foot_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_L/Arm_high_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_L/Arm_high_L/Arm_low_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_L/Arm_high_L/Arm_low_L/Hand_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_R/Arm_high_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_R/Arm_high_R/Arm_low_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_R/Arm_high_R/Arm_low_R/Hand_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Head
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/ear_hinge_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/ear_hinge_L/Ear_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/ear_hinge_r
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/ear_hinge_r/Ear_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Eye_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Eye_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Hat
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Mouth_Bottom
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Mouth_smile
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Mouth_smile/Mouth_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Mouth_smile/Mouth_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Rear
+        weight: 1
+      - path: EyeSystem/Body_Main/Rear/Tail
+        weight: 1
+      - path: EyeSystem/Body_Main/Rear/Tail/Tail_001
+        weight: 1
+      - path: EyeSystem/Eyes_Lookat
+        weight: 1
+      - path: EyeSystem/Eyes_Lookat/Bone_004
+        weight: 1
+      - path: EyeSystem/Eyes_Lookat/Eye_Lookat_L
+        weight: 1
+      - path: Hardhat
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Stop_Crouch
+      takeName: Default Take
+      firstFrame: 184
+      lastFrame: 190
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Body
+        weight: 1
+      - path: Eyeball_L
+        weight: 1
+      - path: Eyeball_R
+        weight: 1
+      - path: EyeSystem
+        weight: 1
+      - path: EyeSystem/Arms_main
+        weight: 1
+      - path: EyeSystem/Arms_main/Hand_L_point
+        weight: 1
+      - path: EyeSystem/Arms_main/Hand_R_point
+        weight: 1
+      - path: EyeSystem/Body_Main
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_L/Leg_high_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_L/Leg_high_L/Leg_low_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_L/Leg_high_L/Leg_low_L/Foot_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_R/Leg_high_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_R/Leg_high_R/Leg_low_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Belly/Pelvis_R/Leg_high_R/Leg_low_R/Foot_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_L/Arm_high_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_L/Arm_high_L/Arm_low_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_L/Arm_high_L/Arm_low_L/Hand_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_R/Arm_high_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_R/Arm_high_R/Arm_low_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Collar_R/Arm_high_R/Arm_low_R/Hand_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Head
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/ear_hinge_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/ear_hinge_L/Ear_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/ear_hinge_r
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/ear_hinge_r/Ear_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Eye_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Eye_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Hat
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Mouth_Bottom
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Mouth_smile
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Mouth_smile/Mouth_L
+        weight: 1
+      - path: EyeSystem/Body_Main/Head/Mouth_smile/Mouth_R
+        weight: 1
+      - path: EyeSystem/Body_Main/Rear
+        weight: 1
+      - path: EyeSystem/Body_Main/Rear/Tail
+        weight: 1
+      - path: EyeSystem/Body_Main/Rear/Tail/Tail_001
+        weight: 1
+      - path: EyeSystem/Eyes_Lookat
+        weight: 1
+      - path: EyeSystem/Eyes_Lookat/Bone_004
+        weight: 1
+      - path: EyeSystem/Eyes_Lookat/Eye_Lookat_L
+        weight: 1
+      - path: Hardhat
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
