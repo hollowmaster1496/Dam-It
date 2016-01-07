@@ -98,19 +98,37 @@ public class MainPlayerMovement : MonoBehaviour {
 	{
 		/*
 		* Mecanim animator setup
-		*
-		*
-		*
 		*/
 
-			int landMotionType;
+		//int landMotionType;
 
+		//landMotionType = 1;
+
+		//bool isIdle;
+		//bool isOnLand;
+
+		/* 
+		 * Land Motion Animator
+		 * 
+		 * walk: landMotionType == 1
+		 * run: landMotionType == 2
+		 * 
+		 * */
+
+
+
+		//anim.GetBool ("isOnLand") == true) 
+		//if (anim.GetBool ("isOnLand") == true)
+		//{
+			
+		/*
 			if (h != 0f || v != 0f) 
 			{
 				//walking animation
 				landMotionType = 1;
+				anim.SetBool ("isIdle", false);
 			} 
-			else if(h != 0f || v != 0f && Input.GetKey(KeyCode.C))
+			else if( Input.GetKey(KeyCode.C))
 			{
 				//running animation
 				landMotionType = 2;
@@ -123,10 +141,65 @@ public class MainPlayerMovement : MonoBehaviour {
 			else
 			{
 				landMotionType = 0;
+				anim.SetBool("isIdle", true);
 			}
 
+*/
 
-		anim.SetInteger ("LandMotionType", landMotionType);
+		//}
+
+		/*if(anim.GetBool("isIdle") == true)
+		{
+			anim.SetInteger("Type_Idle", 0);
+
+			if (h != 0f || v != 0f) 
+			{
+				//walking animation
+				landMotionType = 1;
+				anim.SetBool("isOnLand", true);
+				anim.SetBool("isIdle", false);
+			} 
+
+		}*/
+
+		//anim.SetInteger ("Type_LandMotion", landMotionType);
+
+
+		//Controlling state machine appears simplest without nested conditional statements
+
+		if (Input.GetKey (KeyCode.Space)) 
+		{
+			anim.SetInteger ("Type_Idle", 1);
+			anim.SetBool ("isIdle", true);
+			anim.SetBool("isOnLand", false);
+		} 
+		else if(Input.GetKeyDown(KeyCode.U))
+		{
+			//h != 0 || v != 0)
+
+			anim.SetBool("isIdle", false);
+			anim.SetBool("isOnLand", true);
+			anim.SetInteger("Type_LandMotion", 1);
+
+		}
+		else if (!(h != 0 || v != 0))
+		{
+
+			anim.SetInteger("Type_Idle", 0);
+			anim.SetBool ("isIdle", true);
+			anim.SetBool("IsOnLand", false);
+			Debug.Log("h:" + h);
+			Debug.Log("v:" + v);
+		}
+
+
+		
+		
+		
+		/*
+		 * End of LandMotion Animator
+		 * 
+		 * */
 	}
 
 }
