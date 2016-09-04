@@ -1,0 +1,767 @@
+fileFormatVersion: 2
+guid: 1aea93e95b2e25b49ae761a251fbd349
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Body
+    100004: Bone
+    100006: CocoHat
+    100008: Eye_L
+    100010: Eye_L_end
+    100012: Eye_R
+    100014: Eye_R_end
+    100016: Eye_System
+    100018: Foot_L
+    100020: Foot_l
+    100022: Foot_l_end
+    100024: Foot_R
+    100026: Foot_R 1
+    100028: Foot_R_end
+    100030: Hand_L
+    100032: Hand_L 1
+    100034: Hand_L_end
+    100036: Hand_R
+    100038: Hand_R 1
+    100040: Hand_R_end
+    100042: Hat
+    100044: Hat_end
+    100046: Head
+    100048: Head 1
+    100050: Monkey
+    100052: Tail
+    100054: Tail1
+    100056: Tail1.001
+    100058: Tail1.002
+    100060: Tail1.002_end
+    400000: //RootNode
+    400002: Body
+    400004: Bone
+    400006: CocoHat
+    400008: Eye_L
+    400010: Eye_L_end
+    400012: Eye_R
+    400014: Eye_R_end
+    400016: Eye_System
+    400018: Foot_L
+    400020: Foot_l
+    400022: Foot_l_end
+    400024: Foot_R
+    400026: Foot_R 1
+    400028: Foot_R_end
+    400030: Hand_L
+    400032: Hand_L 1
+    400034: Hand_L_end
+    400036: Hand_R
+    400038: Hand_R 1
+    400040: Hand_R_end
+    400042: Hat
+    400044: Hat_end
+    400046: Head
+    400048: Head 1
+    400050: Monkey
+    400052: Tail
+    400054: Tail1
+    400056: Tail1.001
+    400058: Tail1.002
+    400060: Tail1.002_end
+    2300000: Body
+    2300002: CocoHat
+    2300004: Foot_L
+    2300006: Foot_R 1
+    2300008: Hand_L 1
+    2300010: Hand_R 1
+    3300000: Body
+    3300002: CocoHat
+    3300004: Foot_L
+    3300006: Foot_R 1
+    3300008: Hand_L 1
+    3300010: Hand_R 1
+    4300000: Body
+    4300002: Head
+    4300004: CocoHat
+    4300006: Hand_L
+    4300008: Foot_L
+    4300010: Hand_R
+    4300012: Foot_R
+    4300014: Tail
+    7400000: Monkey|MainAction
+    7400002: MonkeyJump
+    7400004: MonkeyLookDown
+    7400006: MonkeyLookRight
+    7400008: MonkeyLookLeft
+    7400010: MonkeyConfused
+    7400012: MonkeyDeflated
+    9500000: //RootNode
+    13700000: Head 1
+    13700002: Tail
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Monkey|MainAction
+      takeName: Monkey|MainAction
+      firstFrame: 0
+      lastFrame: 129
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Monkey
+        weight: 1
+      - path: Monkey/Bone
+        weight: 1
+      - path: Monkey/Bone/Body
+        weight: 1
+      - path: Monkey/Bone/Head
+        weight: 1
+      - path: Monkey/Bone/Head/Hat
+        weight: 1
+      - path: Monkey/Bone/Head/Hat/CocoHat
+        weight: 1
+      - path: Monkey/Bone/Head/Hat/Hat_end
+        weight: 1
+      - path: Monkey/Bone/Head/Head 1
+        weight: 1
+      - path: Monkey/Eye_System
+        weight: 1
+      - path: Monkey/Eye_System/Eye_L
+        weight: 1
+      - path: Monkey/Eye_System/Eye_L/Eye_L_end
+        weight: 1
+      - path: Monkey/Eye_System/Eye_R
+        weight: 1
+      - path: Monkey/Eye_System/Eye_R/Eye_R_end
+        weight: 1
+      - path: Monkey/Foot_l
+        weight: 1
+      - path: Monkey/Foot_l/Foot_L
+        weight: 1
+      - path: Monkey/Foot_l/Foot_l_end
+        weight: 1
+      - path: Monkey/Foot_R
+        weight: 1
+      - path: Monkey/Foot_R/Foot_R 1
+        weight: 1
+      - path: Monkey/Foot_R/Foot_R_end
+        weight: 1
+      - path: Monkey/Hand_L
+        weight: 1
+      - path: Monkey/Hand_L/Hand_L 1
+        weight: 1
+      - path: Monkey/Hand_L/Hand_L_end
+        weight: 1
+      - path: Monkey/Hand_R
+        weight: 1
+      - path: Monkey/Hand_R/Hand_R 1
+        weight: 1
+      - path: Monkey/Hand_R/Hand_R_end
+        weight: 1
+      - path: Monkey/Tail1
+        weight: 1
+      - path: Monkey/Tail1/Tail1.001
+        weight: 1
+      - path: Monkey/Tail1/Tail1.001/Tail1.002
+        weight: 1
+      - path: Monkey/Tail1/Tail1.001/Tail1.002/Tail1.002_end
+        weight: 1
+      - path: Tail
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: MonkeyJump
+      takeName: Monkey|MainAction
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Monkey
+        weight: 1
+      - path: Monkey/Bone
+        weight: 1
+      - path: Monkey/Bone/Body
+        weight: 1
+      - path: Monkey/Bone/Head
+        weight: 1
+      - path: Monkey/Bone/Head/Hat
+        weight: 1
+      - path: Monkey/Bone/Head/Hat/CocoHat
+        weight: 1
+      - path: Monkey/Bone/Head/Hat/Hat_end
+        weight: 1
+      - path: Monkey/Bone/Head/Head 1
+        weight: 1
+      - path: Monkey/Eye_System
+        weight: 1
+      - path: Monkey/Eye_System/Eye_L
+        weight: 1
+      - path: Monkey/Eye_System/Eye_L/Eye_L_end
+        weight: 1
+      - path: Monkey/Eye_System/Eye_R
+        weight: 1
+      - path: Monkey/Eye_System/Eye_R/Eye_R_end
+        weight: 1
+      - path: Monkey/Foot_l
+        weight: 1
+      - path: Monkey/Foot_l/Foot_L
+        weight: 1
+      - path: Monkey/Foot_l/Foot_l_end
+        weight: 1
+      - path: Monkey/Foot_R
+        weight: 1
+      - path: Monkey/Foot_R/Foot_R 1
+        weight: 1
+      - path: Monkey/Foot_R/Foot_R_end
+        weight: 1
+      - path: Monkey/Hand_L
+        weight: 1
+      - path: Monkey/Hand_L/Hand_L 1
+        weight: 1
+      - path: Monkey/Hand_L/Hand_L_end
+        weight: 1
+      - path: Monkey/Hand_R
+        weight: 1
+      - path: Monkey/Hand_R/Hand_R 1
+        weight: 1
+      - path: Monkey/Hand_R/Hand_R_end
+        weight: 1
+      - path: Monkey/Tail1
+        weight: 1
+      - path: Monkey/Tail1/Tail1.001
+        weight: 1
+      - path: Monkey/Tail1/Tail1.001/Tail1.002
+        weight: 1
+      - path: Monkey/Tail1/Tail1.001/Tail1.002/Tail1.002_end
+        weight: 1
+      - path: Tail
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: MonkeyLookDown
+      takeName: Monkey|MainAction
+      firstFrame: 20
+      lastFrame: 40
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Monkey
+        weight: 1
+      - path: Monkey/Bone
+        weight: 1
+      - path: Monkey/Bone/Body
+        weight: 1
+      - path: Monkey/Bone/Head
+        weight: 1
+      - path: Monkey/Bone/Head/Hat
+        weight: 1
+      - path: Monkey/Bone/Head/Hat/CocoHat
+        weight: 1
+      - path: Monkey/Bone/Head/Hat/Hat_end
+        weight: 1
+      - path: Monkey/Bone/Head/Head 1
+        weight: 1
+      - path: Monkey/Eye_System
+        weight: 1
+      - path: Monkey/Eye_System/Eye_L
+        weight: 1
+      - path: Monkey/Eye_System/Eye_L/Eye_L_end
+        weight: 1
+      - path: Monkey/Eye_System/Eye_R
+        weight: 1
+      - path: Monkey/Eye_System/Eye_R/Eye_R_end
+        weight: 1
+      - path: Monkey/Foot_l
+        weight: 1
+      - path: Monkey/Foot_l/Foot_L
+        weight: 1
+      - path: Monkey/Foot_l/Foot_l_end
+        weight: 1
+      - path: Monkey/Foot_R
+        weight: 1
+      - path: Monkey/Foot_R/Foot_R 1
+        weight: 1
+      - path: Monkey/Foot_R/Foot_R_end
+        weight: 1
+      - path: Monkey/Hand_L
+        weight: 1
+      - path: Monkey/Hand_L/Hand_L 1
+        weight: 1
+      - path: Monkey/Hand_L/Hand_L_end
+        weight: 1
+      - path: Monkey/Hand_R
+        weight: 1
+      - path: Monkey/Hand_R/Hand_R 1
+        weight: 1
+      - path: Monkey/Hand_R/Hand_R_end
+        weight: 1
+      - path: Monkey/Tail1
+        weight: 1
+      - path: Monkey/Tail1/Tail1.001
+        weight: 1
+      - path: Monkey/Tail1/Tail1.001/Tail1.002
+        weight: 1
+      - path: Monkey/Tail1/Tail1.001/Tail1.002/Tail1.002_end
+        weight: 1
+      - path: Tail
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: MonkeyLookRight
+      takeName: Monkey|MainAction
+      firstFrame: 40
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Monkey
+        weight: 1
+      - path: Monkey/Bone
+        weight: 1
+      - path: Monkey/Bone/Body
+        weight: 1
+      - path: Monkey/Bone/Head
+        weight: 1
+      - path: Monkey/Bone/Head/Hat
+        weight: 1
+      - path: Monkey/Bone/Head/Hat/CocoHat
+        weight: 1
+      - path: Monkey/Bone/Head/Hat/Hat_end
+        weight: 1
+      - path: Monkey/Bone/Head/Head 1
+        weight: 1
+      - path: Monkey/Eye_System
+        weight: 1
+      - path: Monkey/Eye_System/Eye_L
+        weight: 1
+      - path: Monkey/Eye_System/Eye_L/Eye_L_end
+        weight: 1
+      - path: Monkey/Eye_System/Eye_R
+        weight: 1
+      - path: Monkey/Eye_System/Eye_R/Eye_R_end
+        weight: 1
+      - path: Monkey/Foot_l
+        weight: 1
+      - path: Monkey/Foot_l/Foot_L
+        weight: 1
+      - path: Monkey/Foot_l/Foot_l_end
+        weight: 1
+      - path: Monkey/Foot_R
+        weight: 1
+      - path: Monkey/Foot_R/Foot_R 1
+        weight: 1
+      - path: Monkey/Foot_R/Foot_R_end
+        weight: 1
+      - path: Monkey/Hand_L
+        weight: 1
+      - path: Monkey/Hand_L/Hand_L 1
+        weight: 1
+      - path: Monkey/Hand_L/Hand_L_end
+        weight: 1
+      - path: Monkey/Hand_R
+        weight: 1
+      - path: Monkey/Hand_R/Hand_R 1
+        weight: 1
+      - path: Monkey/Hand_R/Hand_R_end
+        weight: 1
+      - path: Monkey/Tail1
+        weight: 1
+      - path: Monkey/Tail1/Tail1.001
+        weight: 1
+      - path: Monkey/Tail1/Tail1.001/Tail1.002
+        weight: 1
+      - path: Monkey/Tail1/Tail1.001/Tail1.002/Tail1.002_end
+        weight: 1
+      - path: Tail
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: MonkeyLookLeft
+      takeName: Monkey|MainAction
+      firstFrame: 60
+      lastFrame: 80
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Monkey
+        weight: 1
+      - path: Monkey/Bone
+        weight: 1
+      - path: Monkey/Bone/Body
+        weight: 1
+      - path: Monkey/Bone/Head
+        weight: 1
+      - path: Monkey/Bone/Head/Hat
+        weight: 1
+      - path: Monkey/Bone/Head/Hat/CocoHat
+        weight: 1
+      - path: Monkey/Bone/Head/Hat/Hat_end
+        weight: 1
+      - path: Monkey/Bone/Head/Head 1
+        weight: 1
+      - path: Monkey/Eye_System
+        weight: 1
+      - path: Monkey/Eye_System/Eye_L
+        weight: 1
+      - path: Monkey/Eye_System/Eye_L/Eye_L_end
+        weight: 1
+      - path: Monkey/Eye_System/Eye_R
+        weight: 1
+      - path: Monkey/Eye_System/Eye_R/Eye_R_end
+        weight: 1
+      - path: Monkey/Foot_l
+        weight: 1
+      - path: Monkey/Foot_l/Foot_L
+        weight: 1
+      - path: Monkey/Foot_l/Foot_l_end
+        weight: 1
+      - path: Monkey/Foot_R
+        weight: 1
+      - path: Monkey/Foot_R/Foot_R 1
+        weight: 1
+      - path: Monkey/Foot_R/Foot_R_end
+        weight: 1
+      - path: Monkey/Hand_L
+        weight: 1
+      - path: Monkey/Hand_L/Hand_L 1
+        weight: 1
+      - path: Monkey/Hand_L/Hand_L_end
+        weight: 1
+      - path: Monkey/Hand_R
+        weight: 1
+      - path: Monkey/Hand_R/Hand_R 1
+        weight: 1
+      - path: Monkey/Hand_R/Hand_R_end
+        weight: 1
+      - path: Monkey/Tail1
+        weight: 1
+      - path: Monkey/Tail1/Tail1.001
+        weight: 1
+      - path: Monkey/Tail1/Tail1.001/Tail1.002
+        weight: 1
+      - path: Monkey/Tail1/Tail1.001/Tail1.002/Tail1.002_end
+        weight: 1
+      - path: Tail
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: MonkeyConfused
+      takeName: Monkey|MainAction
+      firstFrame: 80
+      lastFrame: 100
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Monkey
+        weight: 1
+      - path: Monkey/Bone
+        weight: 1
+      - path: Monkey/Bone/Body
+        weight: 1
+      - path: Monkey/Bone/Head
+        weight: 1
+      - path: Monkey/Bone/Head/Hat
+        weight: 1
+      - path: Monkey/Bone/Head/Hat/CocoHat
+        weight: 1
+      - path: Monkey/Bone/Head/Hat/Hat_end
+        weight: 1
+      - path: Monkey/Bone/Head/Head 1
+        weight: 1
+      - path: Monkey/Eye_System
+        weight: 1
+      - path: Monkey/Eye_System/Eye_L
+        weight: 1
+      - path: Monkey/Eye_System/Eye_L/Eye_L_end
+        weight: 1
+      - path: Monkey/Eye_System/Eye_R
+        weight: 1
+      - path: Monkey/Eye_System/Eye_R/Eye_R_end
+        weight: 1
+      - path: Monkey/Foot_l
+        weight: 1
+      - path: Monkey/Foot_l/Foot_L
+        weight: 1
+      - path: Monkey/Foot_l/Foot_l_end
+        weight: 1
+      - path: Monkey/Foot_R
+        weight: 1
+      - path: Monkey/Foot_R/Foot_R 1
+        weight: 1
+      - path: Monkey/Foot_R/Foot_R_end
+        weight: 1
+      - path: Monkey/Hand_L
+        weight: 1
+      - path: Monkey/Hand_L/Hand_L 1
+        weight: 1
+      - path: Monkey/Hand_L/Hand_L_end
+        weight: 1
+      - path: Monkey/Hand_R
+        weight: 1
+      - path: Monkey/Hand_R/Hand_R 1
+        weight: 1
+      - path: Monkey/Hand_R/Hand_R_end
+        weight: 1
+      - path: Monkey/Tail1
+        weight: 1
+      - path: Monkey/Tail1/Tail1.001
+        weight: 1
+      - path: Monkey/Tail1/Tail1.001/Tail1.002
+        weight: 1
+      - path: Monkey/Tail1/Tail1.001/Tail1.002/Tail1.002_end
+        weight: 1
+      - path: Tail
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: MonkeyDeflated
+      takeName: Monkey|MainAction
+      firstFrame: 100
+      lastFrame: 129
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Monkey
+        weight: 1
+      - path: Monkey/Bone
+        weight: 1
+      - path: Monkey/Bone/Body
+        weight: 1
+      - path: Monkey/Bone/Head
+        weight: 1
+      - path: Monkey/Bone/Head/Hat
+        weight: 1
+      - path: Monkey/Bone/Head/Hat/CocoHat
+        weight: 1
+      - path: Monkey/Bone/Head/Hat/Hat_end
+        weight: 1
+      - path: Monkey/Bone/Head/Head 1
+        weight: 1
+      - path: Monkey/Eye_System
+        weight: 1
+      - path: Monkey/Eye_System/Eye_L
+        weight: 1
+      - path: Monkey/Eye_System/Eye_L/Eye_L_end
+        weight: 1
+      - path: Monkey/Eye_System/Eye_R
+        weight: 1
+      - path: Monkey/Eye_System/Eye_R/Eye_R_end
+        weight: 1
+      - path: Monkey/Foot_l
+        weight: 1
+      - path: Monkey/Foot_l/Foot_L
+        weight: 1
+      - path: Monkey/Foot_l/Foot_l_end
+        weight: 1
+      - path: Monkey/Foot_R
+        weight: 1
+      - path: Monkey/Foot_R/Foot_R 1
+        weight: 1
+      - path: Monkey/Foot_R/Foot_R_end
+        weight: 1
+      - path: Monkey/Hand_L
+        weight: 1
+      - path: Monkey/Hand_L/Hand_L 1
+        weight: 1
+      - path: Monkey/Hand_L/Hand_L_end
+        weight: 1
+      - path: Monkey/Hand_R
+        weight: 1
+      - path: Monkey/Hand_R/Hand_R 1
+        weight: 1
+      - path: Monkey/Hand_R/Hand_R_end
+        weight: 1
+      - path: Monkey/Tail1
+        weight: 1
+      - path: Monkey/Tail1/Tail1.001
+        weight: 1
+      - path: Monkey/Tail1/Tail1.001/Tail1.002
+        weight: 1
+      - path: Monkey/Tail1/Tail1.001/Tail1.002/Tail1.002_end
+        weight: 1
+      - path: Tail
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

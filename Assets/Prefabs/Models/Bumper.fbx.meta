@@ -1,0 +1,528 @@
+fileFormatVersion: 2
+guid: ea3a6d16c1cf06844b0f46962874d759
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: bottom_jaw
+    100002: bottom_jaw_end
+    100004: //RootNode
+    100006: Bumper_Arm
+    100008: Bumper_main
+    100010: collar.l
+    100012: collar.r
+    100014: eye.l
+    100016: eye.r
+    100018: Eye_follow.l
+    100020: Eye_follow.l_end
+    100022: Eye_follow.r
+    100024: Eye_follow.r_end
+    100026: Eye_lookat.l
+    100028: Eye_lookat.l_end
+    100030: Eye_lookat.main
+    100032: Eye_lookat.r
+    100034: Eye_lookat.r_end
+    100036: foot.l
+    100038: foot.l_end
+    100040: foot.r
+    100042: foot.r_end
+    100044: hat
+    100046: hat_end
+    100048: lowe_leg.l
+    100050: lowe_leg.r
+    100052: Main
+    100054: Mid_chest
+    100056: Mid_main
+    100058: Mid_main.001
+    100060: Neck_base
+    100062: Neck_middle
+    100064: Neck_top
+    100066: tail_end
+    100068: tail_end_end
+    100070: tail_main
+    100072: top-hat
+    100074: top_jaw
+    100076: top_jaw_end
+    100078: upper_leg.l
+    100080: upper_leg.r
+    100082: Wing_low.l
+    100084: Wing_low.l_end
+    100086: Wing_low.r
+    100088: Wing_low.r_end
+    100090: Wing_main.l
+    100092: Wing_main.r
+    400000: bottom_jaw
+    400002: bottom_jaw_end
+    400004: //RootNode
+    400006: Bumper_Arm
+    400008: Bumper_main
+    400010: collar.l
+    400012: collar.r
+    400014: eye.l
+    400016: eye.r
+    400018: Eye_follow.l
+    400020: Eye_follow.l_end
+    400022: Eye_follow.r
+    400024: Eye_follow.r_end
+    400026: Eye_lookat.l
+    400028: Eye_lookat.l_end
+    400030: Eye_lookat.main
+    400032: Eye_lookat.r
+    400034: Eye_lookat.r_end
+    400036: foot.l
+    400038: foot.l_end
+    400040: foot.r
+    400042: foot.r_end
+    400044: hat
+    400046: hat_end
+    400048: lowe_leg.l
+    400050: lowe_leg.r
+    400052: Main
+    400054: Mid_chest
+    400056: Mid_main
+    400058: Mid_main.001
+    400060: Neck_base
+    400062: Neck_middle
+    400064: Neck_top
+    400066: tail_end
+    400068: tail_end_end
+    400070: tail_main
+    400072: top-hat
+    400074: top_jaw
+    400076: top_jaw_end
+    400078: upper_leg.l
+    400080: upper_leg.r
+    400082: Wing_low.l
+    400084: Wing_low.l_end
+    400086: Wing_low.r
+    400088: Wing_low.r_end
+    400090: Wing_main.l
+    400092: Wing_main.r
+    2300000: eye.l
+    2300002: eye.r
+    2300004: top-hat
+    3300000: eye.l
+    3300002: eye.r
+    3300004: top-hat
+    4300000: top-hat
+    4300002: eye.r
+    4300004: eye.l
+    4300006: Bumper_main
+    7400000: Walk
+    7400002: Look
+    7400004: Flap
+    9500000: //RootNode
+    13700000: Bumper_main
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Walk
+      takeName: Bumper_Arm|Bumper_ArmAction
+      firstFrame: 0
+      lastFrame: 37
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bumper_Arm
+        weight: 1
+      - path: Bumper_Arm/Eye_lookat.main
+        weight: 1
+      - path: Bumper_Arm/Eye_lookat.main/Eye_lookat.l
+        weight: 1
+      - path: Bumper_Arm/Eye_lookat.main/Eye_lookat.l/Eye_lookat.l_end
+        weight: 1
+      - path: Bumper_Arm/Eye_lookat.main/Eye_lookat.r
+        weight: 1
+      - path: Bumper_Arm/Eye_lookat.main/Eye_lookat.r/Eye_lookat.r_end
+        weight: 1
+      - path: Bumper_Arm/Mid_main
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/collar.l
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/collar.l/Wing_main.l
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/collar.l/Wing_main.l/Wing_low.l
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/collar.l/Wing_main.l/Wing_low.l/Wing_low.l_end
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/collar.r
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/collar.r/Wing_main.r
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/collar.r/Wing_main.r/Wing_low.r
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/collar.r/Wing_main.r/Wing_low.r/Wing_low.r_end
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/Neck_base
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/Neck_base/Neck_middle
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/Neck_base/Neck_middle/Neck_top
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/Neck_base/Neck_middle/Neck_top/bottom_jaw
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/Neck_base/Neck_middle/Neck_top/bottom_jaw/bottom_jaw_end
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/Neck_base/Neck_middle/Neck_top/hat
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/Neck_base/Neck_middle/Neck_top/hat/hat_end
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/Neck_base/Neck_middle/Neck_top/hat/top-hat
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/Neck_base/Neck_middle/Neck_top/Main
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/Neck_base/Neck_middle/Neck_top/Main/Eye_follow.l
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/Neck_base/Neck_middle/Neck_top/Main/Eye_follow.l/eye.l
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/Neck_base/Neck_middle/Neck_top/Main/Eye_follow.l/Eye_follow.l_end
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/Neck_base/Neck_middle/Neck_top/Main/Eye_follow.r
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/Neck_base/Neck_middle/Neck_top/Main/Eye_follow.r/eye.r
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/Neck_base/Neck_middle/Neck_top/Main/Eye_follow.r/Eye_follow.r_end
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/Neck_base/Neck_middle/Neck_top/top_jaw
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/Neck_base/Neck_middle/Neck_top/top_jaw/top_jaw_end
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_main.001
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_main.001/upper_leg.l
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_main.001/upper_leg.l/lowe_leg.l
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_main.001/upper_leg.l/lowe_leg.l/foot.l
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_main.001/upper_leg.l/lowe_leg.l/foot.l/foot.l_end
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_main.001/upper_leg.r
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_main.001/upper_leg.r/lowe_leg.r
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_main.001/upper_leg.r/lowe_leg.r/foot.r
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_main.001/upper_leg.r/lowe_leg.r/foot.r/foot.r_end
+        weight: 1
+      - path: Bumper_Arm/Mid_main/tail_main
+        weight: 1
+      - path: Bumper_Arm/Mid_main/tail_main/tail_end
+        weight: 1
+      - path: Bumper_Arm/Mid_main/tail_main/tail_end/tail_end_end
+        weight: 1
+      - path: Bumper_main
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Look
+      takeName: Bumper_Arm|Bumper_ArmAction
+      firstFrame: 40
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bumper_Arm
+        weight: 1
+      - path: Bumper_Arm/Eye_lookat.main
+        weight: 1
+      - path: Bumper_Arm/Eye_lookat.main/Eye_lookat.l
+        weight: 1
+      - path: Bumper_Arm/Eye_lookat.main/Eye_lookat.l/Eye_lookat.l_end
+        weight: 1
+      - path: Bumper_Arm/Eye_lookat.main/Eye_lookat.r
+        weight: 1
+      - path: Bumper_Arm/Eye_lookat.main/Eye_lookat.r/Eye_lookat.r_end
+        weight: 1
+      - path: Bumper_Arm/Mid_main
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/collar.l
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/collar.l/Wing_main.l
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/collar.l/Wing_main.l/Wing_low.l
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/collar.l/Wing_main.l/Wing_low.l/Wing_low.l_end
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/collar.r
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/collar.r/Wing_main.r
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/collar.r/Wing_main.r/Wing_low.r
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/collar.r/Wing_main.r/Wing_low.r/Wing_low.r_end
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/Neck_base
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/Neck_base/Neck_middle
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/Neck_base/Neck_middle/Neck_top
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/Neck_base/Neck_middle/Neck_top/bottom_jaw
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/Neck_base/Neck_middle/Neck_top/bottom_jaw/bottom_jaw_end
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/Neck_base/Neck_middle/Neck_top/hat
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/Neck_base/Neck_middle/Neck_top/hat/hat_end
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/Neck_base/Neck_middle/Neck_top/hat/top-hat
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/Neck_base/Neck_middle/Neck_top/Main
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/Neck_base/Neck_middle/Neck_top/Main/Eye_follow.l
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/Neck_base/Neck_middle/Neck_top/Main/Eye_follow.l/eye.l
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/Neck_base/Neck_middle/Neck_top/Main/Eye_follow.l/Eye_follow.l_end
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/Neck_base/Neck_middle/Neck_top/Main/Eye_follow.r
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/Neck_base/Neck_middle/Neck_top/Main/Eye_follow.r/eye.r
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/Neck_base/Neck_middle/Neck_top/Main/Eye_follow.r/Eye_follow.r_end
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/Neck_base/Neck_middle/Neck_top/top_jaw
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/Neck_base/Neck_middle/Neck_top/top_jaw/top_jaw_end
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_main.001
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_main.001/upper_leg.l
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_main.001/upper_leg.l/lowe_leg.l
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_main.001/upper_leg.l/lowe_leg.l/foot.l
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_main.001/upper_leg.l/lowe_leg.l/foot.l/foot.l_end
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_main.001/upper_leg.r
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_main.001/upper_leg.r/lowe_leg.r
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_main.001/upper_leg.r/lowe_leg.r/foot.r
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_main.001/upper_leg.r/lowe_leg.r/foot.r/foot.r_end
+        weight: 1
+      - path: Bumper_Arm/Mid_main/tail_main
+        weight: 1
+      - path: Bumper_Arm/Mid_main/tail_main/tail_end
+        weight: 1
+      - path: Bumper_Arm/Mid_main/tail_main/tail_end/tail_end_end
+        weight: 1
+      - path: Bumper_main
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: Flap
+      takeName: Bumper_Arm|Bumper_ArmAction
+      firstFrame: 70
+      lastFrame: 89
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Bumper_Arm
+        weight: 1
+      - path: Bumper_Arm/Eye_lookat.main
+        weight: 1
+      - path: Bumper_Arm/Eye_lookat.main/Eye_lookat.l
+        weight: 1
+      - path: Bumper_Arm/Eye_lookat.main/Eye_lookat.l/Eye_lookat.l_end
+        weight: 1
+      - path: Bumper_Arm/Eye_lookat.main/Eye_lookat.r
+        weight: 1
+      - path: Bumper_Arm/Eye_lookat.main/Eye_lookat.r/Eye_lookat.r_end
+        weight: 1
+      - path: Bumper_Arm/Mid_main
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/collar.l
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/collar.l/Wing_main.l
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/collar.l/Wing_main.l/Wing_low.l
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/collar.l/Wing_main.l/Wing_low.l/Wing_low.l_end
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/collar.r
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/collar.r/Wing_main.r
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/collar.r/Wing_main.r/Wing_low.r
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/collar.r/Wing_main.r/Wing_low.r/Wing_low.r_end
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/Neck_base
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/Neck_base/Neck_middle
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/Neck_base/Neck_middle/Neck_top
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/Neck_base/Neck_middle/Neck_top/bottom_jaw
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/Neck_base/Neck_middle/Neck_top/bottom_jaw/bottom_jaw_end
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/Neck_base/Neck_middle/Neck_top/hat
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/Neck_base/Neck_middle/Neck_top/hat/hat_end
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/Neck_base/Neck_middle/Neck_top/hat/top-hat
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/Neck_base/Neck_middle/Neck_top/Main
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/Neck_base/Neck_middle/Neck_top/Main/Eye_follow.l
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/Neck_base/Neck_middle/Neck_top/Main/Eye_follow.l/eye.l
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/Neck_base/Neck_middle/Neck_top/Main/Eye_follow.l/Eye_follow.l_end
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/Neck_base/Neck_middle/Neck_top/Main/Eye_follow.r
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/Neck_base/Neck_middle/Neck_top/Main/Eye_follow.r/eye.r
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/Neck_base/Neck_middle/Neck_top/Main/Eye_follow.r/Eye_follow.r_end
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/Neck_base/Neck_middle/Neck_top/top_jaw
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_chest/Neck_base/Neck_middle/Neck_top/top_jaw/top_jaw_end
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_main.001
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_main.001/upper_leg.l
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_main.001/upper_leg.l/lowe_leg.l
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_main.001/upper_leg.l/lowe_leg.l/foot.l
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_main.001/upper_leg.l/lowe_leg.l/foot.l/foot.l_end
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_main.001/upper_leg.r
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_main.001/upper_leg.r/lowe_leg.r
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_main.001/upper_leg.r/lowe_leg.r/foot.r
+        weight: 1
+      - path: Bumper_Arm/Mid_main/Mid_main.001/upper_leg.r/lowe_leg.r/foot.r/foot.r_end
+        weight: 1
+      - path: Bumper_Arm/Mid_main/tail_main
+        weight: 1
+      - path: Bumper_Arm/Mid_main/tail_main/tail_end
+        weight: 1
+      - path: Bumper_Arm/Mid_main/tail_main/tail_end/tail_end_end
+        weight: 1
+      - path: Bumper_main
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

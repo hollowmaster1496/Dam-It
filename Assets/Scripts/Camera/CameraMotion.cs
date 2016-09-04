@@ -19,12 +19,21 @@ public class CameraMotion : MonoBehaviour {
 		
 		// Setting the relative position as the initial relative position of the camera in the scene.
 		relCameraPos = transform.position - player.position;
-		relCameraPosMag = relCameraPos.magnitude - 0.5f;
+		relCameraPosMag = relCameraPos.magnitude - 0.4f;
 	}
 	
 	
 	void FixedUpdate ()
 	{
+		if(Input.GetKey(KeyCode.Z))
+		{
+
+		}
+		else if(Input.GetKey(KeyCode.X))
+		{
+			relCameraPosMag += 0.05f;
+		}
+
 		// The standard position of the camera is the relative position of the camera from the player.
 		Vector3 standardPos = player.position + relCameraPos;
 		
