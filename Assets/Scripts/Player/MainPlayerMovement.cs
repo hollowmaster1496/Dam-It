@@ -102,7 +102,18 @@ public class MainPlayerMovement : MonoBehaviour {
 		}
 		
 		movement.Set (h, JumpDistance, v);
-		movement = Camera.main.transform.TransformDirection(movement);
+
+		Debug.Log ("Main Camera: " + Camera.main.enabled);
+
+		if (!Camera.main.enabled) 
+		{
+			movement = Vector3.forward;
+		} 
+		else 
+		{
+			movement = Camera.main.transform.TransformDirection (movement);	
+		}
+
 		
 		movement = movement.normalized * TranslateSpeed * Time.deltaTime;
 		
@@ -120,7 +131,16 @@ public class MainPlayerMovement : MonoBehaviour {
 		
 		// Create a new vector of the horizontal and vertical inputs.
 		Vector3 targetDirection = new Vector3(horizontal, 0f, vertical);
-		targetDirection = Camera.main.transform.TransformDirection(targetDirection);
+
+		if (Camera.main.enabled == true) 
+		{
+			targetDirection = Camera.main.transform.TransformDirection(targetDirection);
+		} 
+		else 
+		{
+			targetDirection = Vector3.back;
+		}
+
 		//targetDirection.y = 0.0f;
 		
 		// Create a rotation based on this new vector assuming that up is the global y axis.
