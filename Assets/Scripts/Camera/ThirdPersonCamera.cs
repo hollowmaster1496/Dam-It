@@ -7,7 +7,6 @@ public class ThirdPersonCamera : MonoBehaviour {
 	private float distanceUp = 1;
 	private float smooth = 10;
 	private Transform follow;
-	//private Vector3 targetPosition;
 	private Transform targetPosition;
 	private float scrollFactor = 0.0f;
 
@@ -25,14 +24,6 @@ public class ThirdPersonCamera : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		//distanceAway *= cameraPivot.rigidbody.
-
-	}
-
-
-	//Debugging info 
-	void onDrawGizmos()
-	{
 
 	}
 
@@ -42,35 +33,21 @@ public class ThirdPersonCamera : MonoBehaviour {
 
 		scrollFactor = ZoomCamera ();
 
-		targetPosition.position = cameraPivot.position + (Vector3.up * distanceUp) - (Camera.main.transform.TransformDirection(Vector3.forward) * distanceAway);
+		targetPosition.position = cameraPivot.position + (Vector3.up * distanceUp) -
+			(Camera.main.transform.TransformDirection(Vector3.forward) * distanceAway);
 
-
-		/*Debug.DrawRay(follow.position, Vector3.up * distanceUp, Color.red);
-		Debug.DrawRay(follow.position, -1f* Vector3.forward * distanceAway, Color.green);
-		Debug.DrawLine (follow.position, targetPosition.position, Color.magenta); */
-
-		if (Input.GetKey (KeyCode.B)) {
+		if (Input.GetKey (KeyCode.B)) 
+		{
 			cameraPivot.RotateAround(cameraPivot.position, Vector3.up, 3.0f);
-			//targetPosition.position = cam
-			//targetPosition.position.Set(this.transform.position.x, this.transform.position.y, this.transform.position.z);
-
-			//targetPosition.position = targetPosition.position;//transform.Rotate(Vector3.up);
-			//Rotate (25f, 25f);
 		}
-		else if (Input.GetKey (KeyCode.N)) {
-			//targetPosition.RotateAround(follow.position, Vector3.up, -100.0f);
+		else if (Input.GetKey (KeyCode.N)) 
+		{
 			cameraPivot.RotateAround(cameraPivot.position, Vector3.up, -3.0f);
 		}
 		else
 		{
 			this.transform.position = Vector3.Lerp (transform.position, targetPosition.position, smooth);//targetPosition;
-
 		}
-
-		//transform.LookAt (follow);
-		//transform.rotation = transform.localRotation;
-
-
 	}
 
 	void Rotate(float horizontal, float vertical)
@@ -93,8 +70,6 @@ public class ThirdPersonCamera : MonoBehaviour {
 
 	float ZoomCamera()
 	{
-		//float scroll = Input.GetAxis("Mouse ScrollWheel");
-		//float scroll = Input.GetAxis ("Vertical");
 		float scroll = Input.GetAxis ("Fire1");
 		if (0.6f < scroll && scroll < 1.0f) 
 		{
@@ -102,9 +77,6 @@ public class ThirdPersonCamera : MonoBehaviour {
 			distanceAway = 35f * Mathf.Abs (scroll);
 		}
 
-
-
-		//transform.Translate(scroll * zoomSpeed, 0, scroll * zoomSpeed, Space.World);
 		return scroll + 1;
 	}
 }

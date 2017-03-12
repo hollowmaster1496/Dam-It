@@ -54,7 +54,6 @@ public class ActivateTextAtLine : MonoBehaviour {
 
 	void OnTriggerExit(Collider other)
 	{
-
 		Animator anim = GetComponent<Animator> ();
 		anim.SetBool("getAttention", false);
 
