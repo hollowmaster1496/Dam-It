@@ -19,7 +19,6 @@ public class MainPlayerMovement : MonoBehaviour {
 	void Awake(){
 		anim = GetComponent <Animator> ();
 		playerRigidbody = GetComponent<Rigidbody>();
-		//dust = GetComponent<ParticleSystem> ();
 	
 	}
 
@@ -35,27 +34,28 @@ public class MainPlayerMovement : MonoBehaviour {
 
 	void FixedUpdate() //Called and fires every physics update
 	{
-		//Prevent player movement if canMove is false
+		// Prevent player movement if canMove is false
 		if(!canMove)
 		{
-			//idle animation
+			// idle animation
 			anim.SetBool("isIdle", true);
 			anim.SetBool("isOnLand", true);
 			anim.SetInteger("Type_Idle", 0);
 			anim.SetInteger("Type_LandMotion", 0);
 
-			//diable dust particles
+			// diable dust particles
 			dust.enableEmission = false;
 
 			return;
 		}
 
-		//Access Controller Input
+		// Access Controller Input
 		float h = Input.GetAxisRaw ("Horizontal");
 		float v = Input.GetAxisRaw ("Vertical");
 
-		//Set speed and enable particles depending on current player animation
-		if (anim.GetCurrentAnimatorStateInfo(0).IsName("Run") || anim.GetCurrentAnimatorStateInfo(0).IsName("Jump"))
+		// Set speed and enable particles depending on current player animation
+		if (anim.GetCurrentAnimatorStateInfo(0).IsName("Run") ||
+		    anim.GetCurrentAnimatorStateInfo(0).IsName("Jump"))
 		{
 			TranslateSpeed = 20.0f;
 			JumpHeight = 15.0f;
@@ -74,25 +74,25 @@ public class MainPlayerMovement : MonoBehaviour {
 			dust.enableEmission = false;
 		}
 
-
-		//Rotate player if Joystick is off-center
-		if (h != 0.0f || v != 0.0f) 
+		// Rotate player if Joystick is off-center
+		if (h != 0.0f || v != 0.0f)
 		{
 			Turn (h, v);
 		}
 
-		//ALways update Position and animation
+		// Update Position and animation
 		Move (h, v, JumpHeight);
 		Animating (h, v);
 		
 	}
 
+	// Updates Position of player
 	void Move(float h, float v, float jump)
 	{
 
 		float JumpDistance;
-		//Jumping
-		if (Input.GetKey (KeyCode.Space)) 
+		// Jumping
+		if (Input.GetKey (KeyCode.Space))
 		{
 			JumpDistance = jump;
 		} 
@@ -103,45 +103,21 @@ public class MainPlayerMovement : MonoBehaviour {
 		
 		movement.Set (h, JumpDistance, v);
 
-		Debug.Log ("Main Camera: " + Camera.main.enabled);
+		movement = Camera.main.transform.TransformDirection (movement);
 
-		if (!Camera.main.enabled) 
-		{
-			movement = Vector3.forward;
-		} 
-		else 
-		{
-			movement = Camera.main.transform.TransformDirection (movement);	
-		}
-
-		
 		movement = movement.normalized * TranslateSpeed * Time.deltaTime;
 		
 		playerRigidbody.MovePosition (transform.position + movement);
-
-		/*transform.position -= Camera.mainCamera.transform.right *(h*0.03);
-		transform.position += Camera.mainCamera.transform.forward *(v*0.03);*/
 		
 	}
 
+	// Rotates player
 	void Turn(float horizontal, float vertical)
 	{
-		//transform.Rotate (0, Input.GetAxis("Horizontal") * rotateSpeed, 0);
-		
-		
+
 		// Create a new vector of the horizontal and vertical inputs.
 		Vector3 targetDirection = new Vector3(horizontal, 0f, vertical);
-
-		if (Camera.main.enabled == true) 
-		{
-			targetDirection = Camera.main.transform.TransformDirection(targetDirection);
-		} 
-		else 
-		{
-			targetDirection = Vector3.back;
-		}
-
-		//targetDirection.y = 0.0f;
+		targetDirection = Camera.main.transform.TransformDirection(targetDirection);
 		
 		// Create a rotation based on this new vector assuming that up is the global y axis.
 		Quaternion targetRotation = Quaternion.LookRotation(targetDirection, Vector3.up);
@@ -154,14 +130,13 @@ public class MainPlayerMovement : MonoBehaviour {
 
 	}
 
+	// Animates player using Mecanim state transitions
 	void Animating(float h, float v)
 	{
-		/*
-		* Mecanim animator setup
-		*/
 
 		if (inWater == true)
 		{
+			/* Swim animation */
 			anim.SetBool("isInWater", true);
 			anim.SetBool("isOnLand", false);
 			anim.SetInteger("Type_LandMotion", 0);
@@ -172,19 +147,18 @@ public class MainPlayerMovement : MonoBehaviour {
 			anim.SetBool("isInWater", false);
 			anim.SetBool("isOnLand", true);
 
-			//OnLand
+			/* Land Animations */
 			if (Input.GetKey (KeyCode.Space)) 
 			{
-				//jump animation
+				// jump animation
 				anim.SetInteger ("Type_Idle", 1);
 				anim.SetBool ("isIdle", true);
 				anim.SetBool("isOnLand", false);
 			} 
-			else if(Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.UpArrow) || 
+			else if(Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.UpArrow) ||
 			        Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.LeftArrow))
 			{
-				//h != 0 || v != 0)
-				//walk/run animation
+				// walk and run animation
 				anim.SetBool("isIdle", false);
 				anim.SetBool("isOnLand", true);
 				anim.SetInteger("Type_LandMotion", 1);
@@ -192,41 +166,12 @@ public class MainPlayerMovement : MonoBehaviour {
 			}
 			else if(Input.anyKeyDown == false)
 			{
-				//idle animation
+				// idle animation
 				anim.SetBool("isIdle", true);
 				anim.SetBool("isOnLand", true);
 				anim.SetInteger("Type_Idle", 0);
 				anim.SetInteger("Type_LandMotion", 0);
 			}
-
 		}
-
-
-		/*else if (!(h != 0 || v != 0))
-		{
-
-			anim.SetInteger("Type_Idle", 0);
-			anim.SetBool ("isIdle", true);
-			anim.SetBool("IsOnLand", true);
-			Debug.Log("h:" + h);
-			Debug.Log("v:" + v);
-		}*/
-		/*else
-		{
-			anim.SetInteger("Type_Idle", 0);
-			anim.SetBool ("isIdle", true);
-			anim.SetBool("IsOnLand", true);
-		}*/
-
-
-		
-		
-		
-		/*
-		 * End of LandMotion Animator
-		 * 
-		 * */
 	}
-	
-
 }
