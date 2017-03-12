@@ -3,14 +3,14 @@ using System.Collections;
 
 public class ThirdPersonCamera : MonoBehaviour {
 
-	private float distanceAway = 30;
+	private float distanceAway = 50;
 	private float distanceUp = 1;
 	private float smooth = 10;
 	private Transform follow;
 	private Transform targetPosition;
-	private float scrollFactor = 0.0f;
 
 	public float zoomSpeed = 5.0f;
+	public float zoomFactor = 1.0f;
 
 	private Transform cameraPivot;
 
@@ -31,10 +31,10 @@ public class ThirdPersonCamera : MonoBehaviour {
 	{
 		cameraPivot.position = follow.position;
 
-		scrollFactor = ZoomCamera ();
+		ZoomCamera ();
 
-		targetPosition.position = cameraPivot.position + (Vector3.up * distanceUp) -
-			(Camera.main.transform.TransformDirection(Vector3.forward) * distanceAway);
+		targetPosition.position = cameraPivot.position + ((Vector3.up * distanceUp) -
+			(Camera.main.transform.TransformDirection(Vector3.forward) * distanceAway*zoomFactor));
 
 		if (Input.GetKey (KeyCode.B)) 
 		{
@@ -68,15 +68,19 @@ public class ThirdPersonCamera : MonoBehaviour {
 		
 	}
 
-	float ZoomCamera()
+	void ZoomCamera()
 	{
-		float scroll = Input.GetAxis ("Fire1");
-		if (0.6f < scroll && scroll < 1.0f) 
+		if (Input.GetKey(KeyCode.M))
 		{
-			Debug.Log("Scroll:" + scroll);
-			distanceAway = 35f * Mathf.Abs (scroll);
+			zoomFactor = zoomFactor /= 1.05f;
+			if(zoomFactor <= 0.25f)
+				zoomFactor = 0.25f;
 		}
-
-		return scroll + 1;
+		else if (Input.GetKey(KeyCode.Comma))
+		{
+			zoomFactor = zoomFactor *= 1.05f;
+			if(zoomFactor >= 1)
+				zoomFactor = 1.0f;
+		}
 	}
 }
