@@ -4,7 +4,7 @@ using System.Collections;
 public class CameraSwitcher : MonoBehaviour {
 
 	[SerializeField] private GameObject[] cameras = new GameObject[2];
-	
+
 	// Use this for initialization
 	void Start () {
 		
@@ -28,6 +28,8 @@ public class CameraSwitcher : MonoBehaviour {
 			if (cameras[i] != null && keyNum != i) {
 				// turn camera off
 				cameras[i].GetComponent<Camera>().enabled = false;
+
+
 			} else {
 				// turn camera on
 				cameras[i].GetComponent<Camera>().enabled = true;

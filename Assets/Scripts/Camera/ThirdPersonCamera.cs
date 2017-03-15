@@ -38,11 +38,17 @@ public class ThirdPersonCamera : MonoBehaviour {
 
 		if (Input.GetKey (KeyCode.B)) 
 		{
-			cameraPivot.RotateAround(cameraPivot.position, Vector3.up, 3.0f);
+			//if(Camera.current.CompareTag("MainCamera"))
+			//{
+				cameraPivot.RotateAround(cameraPivot.position, Vector3.up, 3.0f);
+			//}
 		}
 		else if (Input.GetKey (KeyCode.N)) 
 		{
-			cameraPivot.RotateAround(cameraPivot.position, Vector3.up, -3.0f);
+			//if(Camera.current.CompareTag("MainCamera"))
+			//{
+				cameraPivot.RotateAround(cameraPivot.position, Vector3.up, -3.0f);
+			//}
 		}
 		else
 		{
