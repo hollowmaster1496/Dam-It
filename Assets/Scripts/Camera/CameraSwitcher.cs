@@ -4,7 +4,7 @@ using System.Collections;
 public class CameraSwitcher : MonoBehaviour {
 
 	[SerializeField] private GameObject[] cameras = new GameObject[2];
-	
+
 	// Use this for initialization
 	void Start () {
 		

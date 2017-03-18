@@ -9,6 +9,8 @@ public class ThirdPersonCamera : MonoBehaviour {
 	private Transform follow;
 	private Transform targetPosition;
 
+	public Camera skyCam;
+
 	public float zoomSpeed = 5.0f;
 	public float zoomFactor = 1.0f;
 
@@ -36,13 +38,20 @@ public class ThirdPersonCamera : MonoBehaviour {
 		targetPosition.position = cameraPivot.position + ((Vector3.up * distanceUp) -
 			(Camera.main.transform.TransformDirection(Vector3.forward) * distanceAway*zoomFactor));
 
-		if (Input.GetKey (KeyCode.B)) 
+		if(skyCam.enabled)
 		{
+			cameraPivot.localEulerAngles = Vector3.zero;
+		}
+		else if (Input.GetKey (KeyCode.B))
+		{
+
 			cameraPivot.RotateAround(cameraPivot.position, Vector3.up, 3.0f);
+
 		}
 		else if (Input.GetKey (KeyCode.N)) 
 		{
 			cameraPivot.RotateAround(cameraPivot.position, Vector3.up, -3.0f);
+
 		}
 		else
 		{
