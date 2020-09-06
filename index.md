@@ -1,37 +1,14 @@
-## Welcome to GitHub Pages
+# Dam-It
+![Dam It](https://ece.uwaterloo.ca/~s2haseeb/images/Portfolio/Games/DamIt-Cover.png "Dam It")
 
-You can use the [editor on GitHub](https://github.com/hollowmaster1496/Dam-It/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### Storyline:
+"Dam It" follows the adventures of Dammy, a brave beaver who must step up against the large
+corporate factories setting up shop near his lodge. The factories are causing a multitude of 
+problems for the land's native inhabitants and it is up to Dammy to restore peace and ensure 
+his family's survival.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### GamePlay: 
 
-### Markdown
+Youtube: https://www.youtube.com/watch?v=QmRhgNE9lxE
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/hollowmaster1496/Dam-It/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+[![Dam It Gameplay](https://i.ytimg.com/vi/QmRhgNE9lxE/hqdefault.jpg?custom=true&w=336&h=188&stc=true&jpg444=true&jpgq=90&sp=68&sigh=Vuxt31KASBfAWt9KbOh9WpCKNrI)](https://www.youtube.com/watch?v=QmRhgNE9lxE)
